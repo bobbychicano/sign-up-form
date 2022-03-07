@@ -41,7 +41,7 @@ body {
   opacity: 0.2;
 }
 
-a {
+.image-container a {
   color: white;
 }
 
@@ -49,6 +49,16 @@ a {
   border: 1px solid green;
   width: 60vw;
   height: 100vh;
+  background-color: #f7f7f7;
+}
+
+form {
+  width: 100%;
+  background-color: white;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin: 2vh 0;
+  box-shadow: 0 0.3rem 5px rgba(0, 0, 0, 0.4);
 }
 
 table {
