@@ -4,43 +4,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <title>Sign Up Form</title>
 </head>
 <body>
-  <div class="image-container"></div>
-  
-  <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
-  <br>
-  <br>
-    You <em>know</em> you want to.
-  </h1>
-  <form action="#" method="post">
-    <div class="container">
-      <h2>Let's do this!</h2>
-      <div>
-        <label for="">FIRST NAME</label>
-        <input type="text"></div>
-      <div>
-        <label for="">LAST NAME</label>
-        <input type="text"></div>
-      <div>
-        <label for="">EMAIL</label>
-        <input type="email"></div>
-      <div>
-        <label for="">PHONE NUMBER</label>
-        <input type="tel"></div>
-      <div>
-        <label for="">PASSWORD</label>
-        <input type="password"></div>
-      <div>
-        <label for="">CONFIRM PASSWORD</label>
-        <input type="password"></div>
+  <div class="image-container">
+    <img src="nevada.jpg" alt="The nevada desert at dusk.">
+    <div class="logo-container">
+      <div class="logo"></div>
     </div>
-    <div class="button">
-      <button>Create account</button>
-      <p>Already have an account? <a href="#">Log in</a></p>
-    </div>
+    <p>Photo by <a href="https://unsplash.com/@mccallalexander?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">McCall Alexander</a> on <a href="https://unsplash.com/s/photos/nevada?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  </p>
+  </div>
 
-  </form>
+
+  <div class="form-container">
+    <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
+    <br>
+    <br>
+      You <em>know</em> you want to.
+    </h1>
+    <form action="#" method="post">
+      <div class="container">
+        <h2>Let's do this!</h2>
+        <div>
+          <label for="">FIRST NAME</label>
+          <input type="text"></div>
+        <div>
+          <label for="">LAST NAME</label>
+          <input type="text"></div>
+        <div>
+          <label for="">EMAIL</label>
+          <input type="email"></div>
+        <div>
+          <label for="">PHONE NUMBER</label>
+          <input type="tel"></div>
+        <div>
+          <label for="">PASSWORD</label>
+          <input type="password" class="error"></div>
+        <div>
+          <label for="">CONFIRM PASSWORD</label>
+          <input type="password" class="error"></div>
+      </div>
+      <div class="button">
+        <button>Create account</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </div>
+
+    </form>
+  </div>
 </body>
 </html>

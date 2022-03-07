@@ -1,5 +1,54 @@
-html {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image-container {
+  width: 40vw;
+  height: 100vh;
+
+  position: relative;
+}
+
+.image-container > img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-container > p {
+  position: absolute;
+  bottom: 2vh;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.logo-container {
+  width: 100%;
+  height: 15vh;
+  position: absolute;
+  top: 25vh;
+  background-color: black;
+  opacity: 0.2;
+}
+
+a {
+  color: white;
+}
+
+.form-container{
+  border: 1px solid green;
+  width: 60vw;
+  height: 100vh;
 }
 
 table {
