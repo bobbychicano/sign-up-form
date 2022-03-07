@@ -64,8 +64,8 @@ h1 {
   font-size: 1.25rem;
   padding-left: 5%;
   width: 80%;
-  margin-top: 15vh;
-  margin-bottom: 5vh;
+  margin-top: 13vh;
+  margin-bottom: 8vh;
 }
 
 .button-container {
@@ -94,6 +94,14 @@ button {
 
 .inputs-container {
   padding-left: 5%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  padding-left: 5%;
+  padding-bottom: 2%;
 }
 
 table {
