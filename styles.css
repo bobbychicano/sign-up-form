@@ -46,7 +46,6 @@ body {
 }
 
 .form-container{
-  border: 1px solid green;
   width: 60vw;
   height: 100vh;
   background-color: #f7f7f7;
@@ -59,6 +58,42 @@ form {
   padding-bottom: 2vh;
   margin: 2vh 0;
   box-shadow: 0 0.3rem 5px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  font-size: 1.25rem;
+  padding-left: 5%;
+  width: 80%;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+}
+
+.button-container {
+  padding-left: 5%;
+  margin-top: 5vh;
+}
+
+button {
+  margin-bottom: 4vh;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  width: 12rem;
+  border-radius: 10px;
+  background-color: #4d99d6;
+  border: 1px #4d99d6 solid;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0.2rem 0.4rem 4px -3px rgba(0, 0, 0, 0.4);
+}
+
+.button-container a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4d99d6;
+}
+
+.inputs-container {
+  padding-left: 5%;
 }
 
 table {
