@@ -37,10 +37,14 @@ body {
   position: absolute;
   top: 25vh;
   background: rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.image-container a {
-  color: white;
+.logo-container p {
+  font-family: 'Orbitron', sans-serif;;
+  font-size: 3.2rem;
 }
 
 .logo {
@@ -51,6 +55,10 @@ body {
 .logo > img {
   max-height: 100%;
   max-width: 100%;
+}
+
+.image-container a {
+  color: white;
 }
 
 .form-container{
