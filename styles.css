@@ -129,6 +129,7 @@ label {
   font-size: 0.7rem;
   font-weight: bold;
   letter-spacing: 1px;
+  color: #515151;
 }
 
 input {
@@ -147,8 +148,18 @@ input:focus {
   border-radius: 3px;
 }
 
-input[type="password"]::after {
+input + span {
+  position: relative;
+}
 
+input + span::after {
+  display: block;
+  content: "* Passwords do not match";
+  color: red;
+  width: 10rem;
+  height: 20px;
+  position: absolute;
+  font-size: 0.8rem;
 }
 
 .error:invalid {
